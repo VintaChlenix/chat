@@ -1,8 +1,5 @@
 package main
 
-import (
-	"net"
-)
 
 type room struct {
 	name    string
