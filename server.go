@@ -73,7 +73,3 @@ func (s *server) quit(c *client) {
 func (s *server) help(c *client) {
 	c.msg("Commands:\n/nick\n/join\n/roomlist\n/msg\n/quit\n")
 }
-
-func (s *server) quitCurrentRoom(c *client) {
-
-}
